@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+}
+
+#header{
+    height: 46px;
+    background-color: black;
+    /* position: relative; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+#nav li{
+    position: relative;
+}
+
+#nav .mui-ten-xuong{
+    font-size: 14px;
+}
+
+#nav{
+    display: inline-block;
+}
+
+#header .searchbutton{
+    color: #fff;
+    font-size: 24px;
+    float: right;
+    padding: 9px 24px;
+    /* cursor: ; */
+}
+
+#header .searchbutton:hover{
+    background-color: rgba(255, 37, 37, 0.822);
+    cursor: pointer;
+}
+
+#nav .subnav{
+    position: absolute;
+    background-color: #fff;
+    /* color: #333; */
+    list-style-type: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+}
+
+/* #nav > li > a{
+    color: #fff; 
+} */
+#nav li:hover .subnav a{
+    display: block;
+    min-width: 160px;
+    top: 100%;
+    left: 0;
+}
+
+#nav .subnav li:hover{
+    color: black;
+    background-color: #ccc;
+}
+
+
+#nav > li{
+    display: inline-block;
+}
+
+#nav .subnav a{
+    display: none;
+    color: #333;
+    line-height: 38px;
+}
+
+#nav li a{
+    color: #fff; 
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+    /* text-transform: uppercase; */
+}
+
+#nav > li > a{
+    text-transform: uppercase;
+}
+
+#nav > li:hover > a{
+    color: black;
+    background-color: #ccc;
+}
+
+#slider{
+    /* min-height: 1000px; 
+    background-color: #333; */
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url('../img/slider/chicago.jpeg')  top center / cover no-repeat;
+
+}
+
+#content{
+
+}
+
+#footer{
+
+}
