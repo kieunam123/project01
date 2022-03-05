@@ -5,6 +5,7 @@
 }
 
 html{
+    font-size: 120%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -15,11 +16,11 @@ html{
 #header{
     height: 46px;
     background-color: black;
-    /* position: relative; */
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 #nav li{
     position: relative;
@@ -54,10 +55,8 @@ html{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
 }
 
-/* #nav > li > a{
-    color: #fff; 
-} */
 #nav li:hover .subnav a{
+    /* position: absolute; */
     display: block;
     min-width: 160px;
     top: 100%;
@@ -98,17 +97,63 @@ html{
     background-color: #ccc;
 }
 
-#slider{
-    /* min-height: 1000px; 
-    background-color: #333; */
+#slider{   
+    position: relative;
     margin-top: 46px;
     padding-top: 50%;
     background: url('../img/slider/chicago.jpeg')  top center / cover no-repeat;
 
 }
 
-#content{
+#textcontent{
+    position: absolute;
+    color: #fff;
+    bottom: 47px;
+    text-align: center;
+    width: 100%;
+    
+}
 
+#text-description{
+    font-weight: 100;
+}
+
+#content{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 900px;
+    padding-left: 16px;
+    padding-right: 16px;
+
+}
+
+#content1{
+
+
+}
+#contentheader{
+    padding-top: 64px;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 4px;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+#subheading{
+    text-align: center;
+    opacity: 0.6;
+    font-style: italic;
+    margin-top: 15px;
+    font-size: 0.89rem;
+
+}
+
+.paragraph{
+    margin: 15px;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 0.96rem;
+    font-weight: 400;
 }
 
 #footer{
