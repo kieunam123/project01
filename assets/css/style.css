@@ -250,6 +250,15 @@ html{
     text-size-adjust: 100%;
 }
 
+#box >h3{
+    /* font-weight: 400; */
+    opacity: .6;
+}
+
+#box > p{
+    opacity: .5;
+} 
+
 #place-img{
     width: 100%;
     vertical-align: middle;
@@ -263,6 +272,10 @@ html{
     width: calc(100%/3);
     float: left;
     
+}
+#places-item{
+    margin-left: -8px;
+    margin-right: -8px;
 }
 
 #footer{
