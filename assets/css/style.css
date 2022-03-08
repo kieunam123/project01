@@ -240,7 +240,6 @@ html{
     margin-top: 32px;
     overflow: hidden;
 
-
 }
 
 #box{
@@ -263,6 +262,7 @@ html{
     margin-bottom: 16px;
     width: calc(100%/3);
     float: left;
+    
 }
 
 #footer{
