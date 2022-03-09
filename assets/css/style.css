@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
     box-sizing: border-box;
 }
 
@@ -124,12 +124,7 @@ html{
 }
 
 #content{
-
-    margin: 0 auto;
     max-width: 2000px;
-    
-
-
 }
 
 .content-size{
@@ -318,11 +313,62 @@ html{
 }
 
 .button-buy-ticket{
-    padding:8px 16px;
-margin-bottom: 16px;
+    padding: 10px 16px;
+    margin-bottom: 16px;
+    border: none;
+    cursor: pointer;
+   
 }
 
+.button-buy-ticket:hover{
+    color: #000;
+    background-color: #ccc;
+}
 
+#content3{
+
+
+}
+
+.contact-inf{
+    font-size: 18px;
+}
+
+.contactform-position{
+    float: left;
+    width: calc(100%/2);
+    /* padding: 32px 0; */
+    box-sizing: inherit;
+}
+
+.contact-form{
+  overflow: hidden;
+  padding: 32px 0;   
+}
+
+.form{
+    border: 1px solid #ccc;
+    padding: 8px;
+    display: block;
+    width: 100%;
+}
+
+.contact-send-button{
+    float: right;
+    margin: 16px 0;;
+}
+
+.name-mail-styles{
+    padding: 0 8px;
+    width: calc(100%/2);
+    float: left;
+}
+
+.name-mail{
+    margin: 0 -16px 8px -16px;
+    padding: 0 8px;
+    overflow: hidden;
+}
 
 #footer{
 
