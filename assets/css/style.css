@@ -13,9 +13,14 @@ html{
 
 }
 
-#header{
-    height: 46px;
+.theme-color{
     background-color: black;
+    color: white;
+}
+
+.header{
+    height: 46px;
+    /* background-color: black; */
     position: fixed;
     top: 0;
     left: 0;
@@ -34,16 +39,16 @@ html{
     display: inline-block;
 }
 
-#header .searchbutton{
-    color: #fff;
+.header .searchbutton{
+    /* color: #fff; */
     font-size: 24px;
     float: right;
     padding: 9px 24px;
     /* cursor: ; */
 }
 
-#header .searchbutton:hover{
-    background-color: rgba(255, 37, 37, 0.822);
+.header .searchbutton:hover{
+    background-color: rgba(255, 37, 37, 0.822)!important;
     cursor: pointer;
 }
 
@@ -120,16 +125,27 @@ html{
 
 #content{
 
+    margin: 0 auto;
+    max-width: 2000px;
+    
+
+
+}
+
+.content-size{
+    max-width: 880px;
+    padding: 64px 16px;
+}
+
+.intro{
+    overflow: hidden;
+    margin: 0 auto;
+    
 
 }
 
 #content1{
     margin: 0 35.5px 0;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* max-width: 900px; */
-    padding-left: 16px;
-    padding-right: 16px;
     text-align: center;
     box-sizing: inherit;
 
@@ -163,7 +179,7 @@ html{
     margin-bottom: 16px;
  }
 #contentheader{
-    padding-top: 64px;
+    /* padding-top: 64px; */
     text-align: center;
     font-weight: 100;
     letter-spacing: 4px;
@@ -180,20 +196,22 @@ html{
 
 }
 
-#content2{
-    background-color: #000;
-    padding: 64px 16px;
+.content2{
+}
+
+.tourdate-content{
+    margin: 0 auto;
 }
 
 #tour-date{
-    color: white;
+    /* color: white; */
 }
 
 .paragraph{
     margin: 15px;
     text-align: justify;
     line-height: 30px;
-    font-size: 0.96rem;
+    font-size: 0.90rem;
     font-weight: 400;
 }
 
@@ -237,7 +255,7 @@ html{
 }
 
 #place{
-    margin-top: 32px;
+    /* margin-top: 32px; */
     overflow: hidden;
     padding: 32px 0 32px;
 
