@@ -130,6 +130,7 @@ html{
 .content-size{
     max-width: 880px;
     padding: 64px 16px;
+    line-height: 1.5;
 }
 
 .intro{
@@ -344,6 +345,7 @@ html{
 .contact-form{
   overflow: hidden;
   padding: 32px 0;   
+  
 }
 
 .form{
@@ -368,6 +370,11 @@ html{
     margin: 0 -16px 8px -16px;
     padding: 0 8px;
     overflow: hidden;
+}
+
+.contact-icon{
+    padding:0 5px;
+    text-align: center;
 }
 
 #footer{
