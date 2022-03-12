@@ -387,3 +387,82 @@ html{
 .icon:hover{
     opacity: .6;
 }
+
+.modal{
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.model-container{
+    min-width: 1000px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+
+}
+
+.model-header{
+    min-height: 150px;
+    width: 100%;
+    /* background-color: rgba(0, 0, 0, 0.938); */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.modal-body{
+    margin: 25px;
+}
+
+.modal-close:hover{
+    opacity: .6;
+    background-color: #ccc;
+}
+
+.modal-close{
+    position: absolute;
+    right: 0;
+    padding: 15px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 700;
+}
+
+.model-header-text{
+    letter-spacing: 4px;
+    font-weight: 400;
+    
+
+}
+
+
+.modal-body-tag{
+    padding: 11px 0;
+    font-size: initial;
+}
+
+
+
+.modal-body-input{
+    border: 1px solid #ccc;
+    padding: 14px;
+    display: block;
+    width: 100%;
+    margin: 7px 0;
+}
+
+.modal-button{
+    margin: 0 -5px;
+    padding: 20px;
+    width: 100%;
+}
