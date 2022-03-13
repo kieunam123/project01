@@ -397,12 +397,19 @@ html{
     height: 100%;
     margin-top: 0;
     background-color: rgba(0, 0, 0, 0.4);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
+    /* outline: 2px white; */
 }
 
-.model-container{
+
+
+.modal.open{
+    display: flex;
+}
+
+.modal-container{
     min-width: 1000px;
     min-height: 500px;
     background-color: white;
@@ -410,15 +417,19 @@ html{
 
 }
 
-.model-header{
+.modal-header{
     min-height: 150px;
     width: 100%;
     /* background-color: rgba(0, 0, 0, 0.938); */
     align-items: center;
     justify-content: center;
     display: flex;
+    /* outline: 1px white;
+    border: 1px;
+    border-color: #fff; */
 
 }
+
 
 .modal-body{
     margin: 25px;
@@ -438,7 +449,7 @@ html{
     font-weight: 700;
 }
 
-.model-header-text{
+.modal-header-text{
     letter-spacing: 4px;
     font-weight: 400;
     
@@ -474,4 +485,3 @@ html{
     opacity: .6;
     cursor: pointer;
 }
-
