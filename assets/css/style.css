@@ -471,8 +471,7 @@ html{
 }
 
 .modal-button:hover{
-    background-color: #757575;
-    color:#ccc;
+    opacity: .6;
     cursor: pointer;
 }
 
