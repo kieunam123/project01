@@ -1,12 +1,13 @@
 /* PC */
 @media(min-width: 1024px){
-    
-        
-    
+    .mobile-menu{
+        display:none;
+    }
+   
 }
 
 /* Tablet */
-@media(min-width:740px) and(max-width:1024px){
+@media(min-width:740px) and (max-width:1024px){
     
 
     
@@ -17,6 +18,16 @@
     #nav > li {
         display: block;
     }
+
+    #headerid{
+    /* height: auto; */
+    overflow: hidden;
+    }
+
+    .searchbutton{
+        display: none;
+    }    
+
 
     
 }

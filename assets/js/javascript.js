@@ -26,3 +26,20 @@ modalcontainer.addEventListener('click',function(event){
     event.stopImmediatePropagation()
 })
 
+// mobile menu open event
+
+const header = document.getElementById("headerid");
+const mobileMenu = document.getElementById("mobilemenuid");
+
+mobileMenu.onclick = function(){
+    var isClosed = header.clientHeight === 46;
+    if (isClosed) {
+        header.style.height = 'auto';
+    } else {
+        header.style.height = '46px';
+    }
+
+}
+
+
+
